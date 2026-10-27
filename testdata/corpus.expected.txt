@@ -1,0 +1,19 @@
+# Unicode invisible character test corpus (UTF-8)
+# Labels are ASCII; inspect with xxd -g 1 or :%!xxd
+01 ZWJ in Latin: Hello World
+02 ZWNJ in Latin: Hello World
+03 ZWSP in Latin: Hello World
+04 WORD JOINER: Hello World
+05 SOFT HYPHEN: password
+06 Bidi RLO/PDF: abc 12345 xyz
+07 Bidi isolate: abc 12345 xyz
+08 TAG payload HELLO: Visible End
+09 TAG payload command: Safe End
+10 VS16: heart ❤️
+11 VS supplementary: ABC
+12 Emoji ZWJ valid: 👩‍💻 👨‍👩‍👧
+13 Emoji skin tone: 👩🏽‍💻
+14 Emoji tag flag valid: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+15 Combining mark: Café
+16 BOM/ZWNBSP: Hello
+17 CGJ: ab
